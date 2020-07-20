@@ -11,7 +11,7 @@ The downside of this approach is that if a user holds the device in an unexpecte
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -21,7 +21,7 @@ You will also see any lint errors in the console.
 
 ## Running on Mobile
 
-After the app is running locally, access it via mobile either using `adb reverse tcp:3000 tcp:3000` (requires [Android dev tools](https://developer.android.com/) ) or setting up an `ngrok` tunnel (requires [downloading ngrok](https://ngrok.com/) )
+After the app is running locally, access it via mobile either using `adb reverse tcp:3000 tcp:3000` (requires [Android dev tools](https://developer.android.com/)) or setting up an `ngrok` tunnel (requires [downloading ngrok](https://ngrok.com/))
 
 ## Gotchas
 
