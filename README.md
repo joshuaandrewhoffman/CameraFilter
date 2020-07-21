@@ -1,6 +1,9 @@
 # Camera Filter (Mobile Web)
 This is a mobile web project I did as part of an interview process. The prompt was to create a camera filter which adjusts image saturation based on the tilt of a user's smartphone. Testing was done on a Nexus 6 using Chrome.
 
+## Demo
+You can watch download a quick video showing the functionality of the app [here](https://github.com/joshuaandrewhoffman/readmeImages/blob/master/cameraFilterDemo.mp4)
+
 ## Tilt Calculation
 
 The tilt calculation in this app is very much an MVP. When the page loads, the alpha rotation (tilt) of the device is saved into component state. This is used as a "zero" point from which all other alpha rotations are calculated.
